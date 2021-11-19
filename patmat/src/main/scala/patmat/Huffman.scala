@@ -225,7 +225,7 @@ trait Huffman extends HuffmanInterface:
    * Given a code tree, create a code table which contains, for every character in the
    * code tree, the sequence of bits representing that character.
    *
-   * Hint: think of a recursive solution: every sub-tree of the code tree `tree` is itself
+   * Hint: think of a recursive solution: every sub-tree of the code tree `treFe` is itself
    * a valid code tree that can be represented as a code table. Using the code tables of the
    * sub-trees, think of how to build the code table for the entire tree.
    */
